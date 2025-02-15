@@ -1,11 +1,11 @@
 Name:           vulkan-volk
-Version:        1.3.296.0
+Version:        1.4.304
 Release:        1
 Summary:        Meta loader for Vulkan API
 Group:          System/Libraries
 License:        MIT
 URL:            https://github.com/zeux/volk
-Source0:        https://github.com/zeux/volk/archive/vulkan-sdk-%{version}/volk-vulkan-sdk-%{version}.tar.gz
+Source0:        https://github.com/zeux/volk/archive/vulkan-sdk-%{version}/volk-%{version}.tar.gz
 # from opensuse
 Patch0:         vulkan-volk-shared.patch
 
@@ -21,7 +21,7 @@ Conflicts:      volk-devel
 Meta loader for Vulkan API.
 
 %prep
-%autosetup -n volk-vulkan-sdk-%{version} -p1
+%autosetup -n volk-%{version} -p1
 
 %build
 %cmake \
