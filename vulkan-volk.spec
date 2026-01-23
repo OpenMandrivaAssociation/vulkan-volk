@@ -1,5 +1,5 @@
 Name:           vulkan-volk
-Version:        1.4.328.1
+Version:        1.4.335.0
 Release:        1
 Summary:        Meta loader for Vulkan API
 Group:          System/Libraries
