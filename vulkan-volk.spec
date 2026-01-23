@@ -11,6 +11,7 @@ Source0:        https://github.com/zeux/volk/archive/vulkan-sdk-%{version}/volk-
 Patch0:         vulkan-volk-shared.patch
 
 BuildRequires:  cmake
+BuildRequires:  make
 BuildRequires:  vulkan-headers
 
 Requires:       vulkan-headers
