@@ -1,5 +1,5 @@
 Name:           vulkan-volk
-Version:        1.4.335.0
+Version:        1.4.357.0
 Release:        1
 Summary:        Meta loader for Vulkan API
 Group:          System/Libraries
@@ -23,7 +23,7 @@ Conflicts:      volk-devel
 Meta loader for Vulkan API.
 
 %prep
-%autosetup -n volk-vulkan-sdk-%{version} -p1
+%autosetup -n volk-vulkan-sdk-1.4.357.0 -p1
 
 %build
 %cmake \
