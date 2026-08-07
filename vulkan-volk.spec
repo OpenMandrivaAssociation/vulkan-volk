@@ -23,7 +23,7 @@ Conflicts:      volk-devel
 Meta loader for Vulkan API.
 
 %prep
-%autosetup -n volk-vulkan-sdk-1.4.357.0 -p1
+%autosetup -n volk-vulkan-sdk-%{version} -p1
 
 %build
 %cmake \
